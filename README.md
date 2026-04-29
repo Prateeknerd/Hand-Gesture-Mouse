@@ -2,7 +2,7 @@
 
 A touchless computer mouse interface that uses hand gestures captured by a webcam. Built with MediaPipe, OpenCV, and PyAutoGUI.
 
-## 🚀 Features
+##  Features
 
 - **Smooth Cursor Control**: Move the cursor by lifting your index finger (keep thumb folded to move).
 - **Intelligent Left Click**: Pinch thumb and index together to click.
@@ -13,7 +13,7 @@ A touchless computer mouse interface that uses hand gestures captured by a webca
 - **Activation Toggle**: Hold an open palm for 1 second to enable/disable gesture control.
 - **Console Controls**: Press `Q` in the terminal to quit the application safely.
 
-## 🛠️ Installation
+##  Installation
 
 1. Clone the repository:
    ```bash
@@ -31,7 +31,7 @@ A touchless computer mouse interface that uses hand gestures captured by a webca
    python main.py
    ```
 
-## 🎮 Gesture Guide
+##  Gesture Guide
 
 | Gesture | Action |
 | :--- | :--- |
@@ -43,12 +43,11 @@ A touchless computer mouse interface that uses hand gestures captured by a webca
 | 🤟 **3 Fingers + Hand Move** | Scroll |
 | 🖐️ **Open Palm (1s)** | Toggle ON/OFF |
 
-## ⚙️ Configuration
+##  Configuration
 
 You can tweak sensitivity and thresholds at the top of `main.py`:
 - `SMOOTHING`: Adjust cursor lag/smoothness.
 - `SCROLL_SENS`: Adjust scroll speed.
 - `PINCH_THRESHOLD`: Adjust how close fingers must be to click.
 
-## ⚖️ License
-MIT
+
